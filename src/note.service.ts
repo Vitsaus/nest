@@ -2,7 +2,7 @@ import {Inject, Injectable} from '@nestjs/common';
 import {NOTE_MAPPER, NOTE_REPOSITORY} from "./constants";
 import {Repository} from "typeorm";
 import {NoteEntity} from "./note.entity";
-import {CreateNoteDto} from "./note.create.dto";
+import {CreateNoteDto} from "./note.dto.create";
 import {NoteMapper} from "./note.mapper";
 
 @Injectable()

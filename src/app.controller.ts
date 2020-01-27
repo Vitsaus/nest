@@ -1,5 +1,5 @@
 import {Body, Controller, Get, HttpStatus, Inject, Post, Res, Response} from '@nestjs/common';
-import {CreateNoteDto} from "./note.create.dto";
+import {CreateNoteDto} from "./note.dto.create";
 import {NoteEntity} from "./note.entity";
 import {NoteMapper} from "./note.mapper";
 import {NOTE_MAPPER, NOTE_SERVICE} from "./constants";

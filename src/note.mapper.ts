@@ -1,4 +1,4 @@
-import {CreateNoteDto} from "./note.create.dto";
+import {CreateNoteDto} from "./note.dto.create";
 import {NoteEntity} from "./note.entity";
 
 export class NoteMapper {
